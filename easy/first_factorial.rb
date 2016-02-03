@@ -1,5 +1,5 @@
 require 'pry'
-def first_factorial(num)
+def FirstFactorial(num)
   # Easy Way
   (1..num).inject {|total, num| total *= num}
 
